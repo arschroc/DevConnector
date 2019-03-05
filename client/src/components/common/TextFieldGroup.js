@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const TextFieldGroup = ({
   name,
-  placeHolder,
+  placeholder,
   value,
   label,
   error,
@@ -20,7 +20,7 @@ const TextFieldGroup = ({
         className={classnames("form-control form-control-lg", {
           "is-invalid": error
         })}
-        placeholder={placeHolder}
+        placeholder={placeholder}
         name={name}
         value={value}
         onChange={onChange}
