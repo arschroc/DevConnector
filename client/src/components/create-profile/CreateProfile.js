@@ -61,7 +61,7 @@ class CreateProfile extends Component {
 
     this.props.createProfile(profileData, this.props.history);
 
-    console.log("submit");
+    //console.log("submit");
   }
 
   onChange(e) {
