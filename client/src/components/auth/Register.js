@@ -64,7 +64,7 @@ class Register extends Component {
               </p>
               <form noValidate onSubmit={this.onSubmit}>
                 <TextFieldGroup
-                  placeHolder="Name"
+                  placeholder="Name"
                   name="name"
                   type="text"
                   value={this.state.name}
@@ -72,7 +72,7 @@ class Register extends Component {
                   error={errors.name}
                 />
                 <TextFieldGroup
-                  placeHolder="Email Address"
+                  placeholder="Email Address"
                   name="email"
                   type="email"
                   value={this.state.email}
@@ -81,7 +81,7 @@ class Register extends Component {
                   info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
                 />
                 <TextFieldGroup
-                  placeHolder="Password"
+                  placeholder="Password"
                   name="password"
                   type="password"
                   value={this.state.password}
@@ -89,7 +89,7 @@ class Register extends Component {
                   error={errors.password}
                 />
                 <TextFieldGroup
-                  placeHolder="Confirm Password"
+                  placeholder="Confirm Password"
                   name="password2"
                   type="password"
                   value={this.state.password2}
