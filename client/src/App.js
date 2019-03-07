@@ -20,6 +20,7 @@ import "./App.css";
 import EditProfile from "./components/edit-profile/EditProfile";
 import AddExperience from "./components/add-credentials/AddExperience";
 import AddEducation from "./components/add-credentials/AddEducation";
+import Profiles from "./components/profiles/Profiles";
 
 //Check for token
 if (localStorage.jwtToken) {
@@ -84,6 +85,7 @@ class App extends Component {
                   component={AddEducation}
                 />
               </Switch>
+              <Route exact path="/profiles" component={Profiles} />
             </div>
             <Footer />
           </div>
